@@ -58,6 +58,12 @@ body {
     right: -9rem;
   }
 }
+@media screen and (min-width: 2000px) {
+  .bg_bottom {
+    right: -12rem;
+    bottom: -7rem;
+  }
+}
 
 main {
   display: flex;

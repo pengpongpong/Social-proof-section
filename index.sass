@@ -9,6 +9,7 @@ $white: hsl(0, 0%, 100%)
 $league_spartan: 'League Spartan', sans-serif
 
 $desktop: 600px
+$lg_desktop: 2000px
 
 *
     box-sizing: border-box
@@ -58,7 +59,10 @@ body
         width: 85%
         height: 85%
         bottom: 0
-        right: 0
+        right: -9rem
+    @media screen and ( min-width: $lg_desktop )
+        right: -12rem
+        bottom: -7rem
 
 main
     display: flex
